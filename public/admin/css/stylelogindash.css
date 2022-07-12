@@ -1,0 +1,774 @@
+.brand-logo img {
+    width: 100% !important;
+    border-radius: 16px;
+}
+.auth .brand-logo {
+    text-align: center;
+    background: #000000;
+    border-radius: 16px;
+}
+
+.loginbuttonform {
+    background-color: #2896d3;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.loginbuttonform:hover {
+    background-color: #1e6d99;
+}
+
+.navbar
+    .navbar-menu-wrapper
+    .navbar-nav
+    .nav-settings
+    a.nav-link
+    i.icon-ellipsis {
+    color: #2896d3;
+}
+
+.navbar-menu-wrapper button span {
+    color: #2896d3;
+}
+
+.navbar-brand-wrapper {
+    width: 200px !important;
+    height: 70px !important;
+    background: #000000;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.horizontal-menu .top-navbar .navbar-brand-wrapper .navbar-brand img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.dashboard-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ulhead {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.ullist {
+    margin-left: 30px;
+}
+
+.ullist li {
+    font-weight: 500;
+    color: black;
+}
+
+.backg-white {
+    background-color: white;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.back-white {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.main-panel {
+    padding: 0 50px;
+}
+
+.form-details {
+    background-color: #2896d3;
+    padding: 10px 5px;
+    color: white;
+}
+
+.form-customer {
+    padding: 10px 5px;
+}
+
+.form-customer input,
+.form-customer select,
+#paymenttable input,
+#paymenttable textarea,
+#paymenttable select {
+    padding: 2px 5px;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    font-size: 14px;
+    color: #838383;
+    border-radius: 4px;
+}
+.form-customer select,
+#paymenttable select {
+    width: 100%;
+}
+
+.form-customer .form-group {
+    margin-bottom: 10px;
+}
+
+.topbtns button, .btns button, .topbtns a {
+    background-color: #2896d3;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    border: 1px solid #2896d3;
+    text-decoration: none;
+}
+
+#carriers button {
+    background-color: #2896d3;
+    color: white;
+    border-radius: 6px;
+    width: fit-content;
+    padding: 5px 10px;
+    border: 1px solid #2896d3;
+}
+
+.btn-submit-orders button {
+    background-color: #2896d3;
+    color: white;
+    font-size: 12px;
+    border-radius: 6px;
+    width: 100px;
+    padding: 5px 10px;
+    border: 1px solid #2896d3;
+}
+
+.topbtns button:hover,
+.btns button:hover,
+.btn-submit-orders button:hover,
+#carriers button:hover {
+    background-color: #1c6a94;
+    border: 1px solid #1c6a94;
+}
+
+#order-listing thead tr th.sorting {
+    background: #2896d3 !important;
+    padding: 5px 5px;
+    color: white;
+}
+
+#order-listing tbody tr td {
+    padding: 5px 5px;
+}
+
+#order-listing_filter input {
+    min-height: 10px !important;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.dataTables_paginate ul li {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.dataTables_paginate ul li.active {
+    background-color: #2896d3 !important;
+}
+
+.dataTables_paginate ul li a {
+    background-color: transparent !important;
+}
+
+.dataTables_paginate ul li:hover:not(.active) a {
+    background-color: #2896d3 !important;
+    color: white;
+}
+
+.dataTables_paginate ul li:hover:not(.active) a {
+    background-color: #2896d3 !important;
+    color: white;
+}
+
+.dataTables_wrapper .dataTable thead .sorting:after,
+.dataTables_wrapper .dataTable thead .sorting_asc:after,
+.dataTables_wrapper .dataTable thead .sorting_desc:after,
+.dataTables_wrapper .dataTable thead .sorting_asc_disabled:after,
+.dataTables_wrapper .dataTable thead .sorting_desc_disabled:after,
+.dataTables_wrapper .dataTable thead .sorting:before,
+.dataTables_wrapper .dataTable thead .sorting_asc:before,
+.dataTables_wrapper .dataTable thead .sorting_desc:before,
+.dataTables_wrapper .dataTable thead .sorting_asc_disabled:before,
+.dataTables_wrapper .dataTable thead .sorting_desc_disabled:before {
+    display: none;
+}
+
+.form-filter input,
+.form-filter select {
+    padding: 0 5px;
+    height: 30px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #6d6d6d;
+}
+
+.form-filter select {
+    width: 100%;
+}
+
+.form-tabs ul li button {
+    padding: 5px !important;
+    font-size: 12px;
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid #ededed !important;
+    border-bottom: 1px solid transparent !important;
+    border-radius: 6px 6px 0px 0 !important;
+}
+
+.form-tabs ul li button.active {
+    background-color: #2896d3 !important;
+    color: white !important;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.tab-content {
+    border: 0;
+    border-top: 0;
+    padding: 2rem 1rem;
+}
+
+.form-tabs textarea {
+    width: 100%;
+    padding: 2px 5px;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    font-size: 14px;
+    color: #838383;
+    border-radius: 4px;
+}
+
+#carrierstable thead tr th {
+    width: 100px;
+}
+
+#paymenttable .item,
+#paymenttable .amount,
+#paymenttable .desc {
+    width: 100px;
+}
+
+.footertr {
+    border-top: 1px solid #eeeeee;
+}
+
+.submenu-customers,
+.submenu-payables {
+    display: none;
+}
+.nav-item-customers,
+.nav-item-payables {
+    position: relative;
+}
+
+.nav-item-customers:hover .submenu-customers,
+.nav-item-payables:hover .submenu-payables {
+    display: block;
+    position: absolute;
+    top: -100%;
+    left: 100%;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.showmenu {
+    display: block;
+}
+
+.nav-item-customers ul li a:hover {
+    background-color: transparent;
+}
+
+.horizontal-menu
+    .bottom-navbar
+    .page-navigation
+    .submenu-item
+    .nav-linkk
+    .menu-arrow:before,
+.horizontal-menu
+    .bottom-navbar
+    .page-navigation
+    .submenu-item
+    .nav-link-pay
+    .menu-arrow:before {
+    content: "\e64b";
+    font-family: "themify";
+    font-style: normal;
+    display: block;
+    font-size: 11px;
+    line-height: 10px;
+}
+
+.nav-linkk,
+.nav-link-pay {
+    display: flex !important;
+    align-items: center;
+}
+.nav-item-customers:hover i,
+.nav-item-payables:hover i {
+    transform: rotate(-90deg);
+    transition: 0.3s;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .nav-item-customers,
+    .nav-item-payables {
+        position: relative;
+    }
+
+    .nav-item-customers:hover .submenu-customers,
+    .nav-item-payables:hover .submenu-payables {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0%;
+        transition: 0.1s;
+        background-color: white;
+    }
+    .navbar-brand-wrapper {
+        width: 100px !important;
+        height: 70px !important;
+    }
+
+    .content-wrapper {
+        margin-top: 10px;
+    }
+
+    .logoblock {
+        width: 30% !important;
+    }
+    .menublock {
+        width: 60% !important;
+    }
+    .brand-logo-mini img {
+        width: 100% !important;
+    }
+    .horizontal-menu .top-navbar .navbar-brand-wrapper .navbar-brand {
+        width: 100%;
+    }
+    .backg-white {
+        padding: 10px 0;
+    }
+    .main-panel {
+        padding: 0;
+    }
+    .main-panel {
+        padding-top: 60px;
+    }
+    .topbtns button {
+        font-size: 12px;
+    }
+
+    .nav-tabs li {
+        width: 50%;
+    }
+    .nav-tabs li button {
+        width: 100% !important;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .navbar-brand-wrapper {
+        width: 100px !important;
+        height: 70px !important;
+    }
+    .logoblock {
+        width: 30% !important;
+    }
+    .menublock {
+        width: 60% !important;
+    }
+    .content-wrapper {
+        margin-top: 10px;
+    }
+    .main-panel {
+        padding: 0;
+    }
+    .main-panel {
+        padding-top: 60px;
+    }
+
+    /* .submenu-customers,
+    .submenu-payables {
+        display: none;
+    } */
+    .nav-linkk:hover .submenu-customers {
+        display: block !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    .navbar-brand-wrapper {
+        width: 100px !important;
+        height: 70px !important;
+    }
+    .logoblock {
+        width: 30% !important;
+    }
+    .menublock {
+        width: 60% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .content-wrapper {
+        margin-top: 220px;
+    }
+}
+.btn-submit-orders a {
+    text-align: center;
+    background-color: #2896d3;
+    color: white;
+    font-size: 12px;
+    border-radius: 6px;
+    width: 100px;
+    padding: 5px 10px;
+    border: 1px solid #2896d3;
+    text-decoration: none;
+}
+.require {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.require::after {
+    position: absolute;
+    content: "*";
+    width: 20px;
+    height: 20px;
+    color: red;
+    font-size: 20px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*table action edit btns styles start here*/
+.edit-list span {
+    display: flex;
+}
+
+.edit-list .edit-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.edit-list .edit-btns.green:hover {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+
+.edit-list .edit-btns.red:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+.green {
+    border: 2px solid green;
+    background-color: green;
+}
+
+.red {
+    margin-left: 6px;
+    border: 2px solid red;
+    background-color: red;
+}
+/*Table name link here*/
+.namelink {
+    color: #ba9342;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.namelink:hover {
+    color: #2896d3;
+    text-decoration: underline;
+}
+.btn-link {
+    background-color: #2896d3;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    border: 2px solid #2896d3;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    background-color: white;
+    color: #2896d3;
+    border: 2px solid #2896d3;
+    cursor: pointer;
+}
+/*New css for spacing*/
+.horizontal-menu .bottom-navbar .page-navigation > .nav-item > .nav-link {
+    padding: 6px 0;
+}
+
+.navbar-brand-wrapper
+{
+    margin: 0;
+    width: 140px !important;
+    height: 40px !important;
+}
+
+.main-panel
+{
+    padding: 20px;
+}
+
+.content-wrapper
+{
+    padding: 0;
+}
+
+#order-listing thead th 
+{
+    padding: 4px;
+}
+
+#order-listing tbody tr td {
+    padding: 5px;
+    height: 40px;
+}
+
+@media (min-width: 768px)
+{
+    .horizontal-menu .bottom-navbar .page-navigation > .nav-item:not(.mega-menu) .submenu {
+        position: absolute;
+        top: 24px;
+        background: #ffffff;
+    }
+}
+
+.horizontal-menu .bottom-navbar .page-navigation > .nav-item.active > .nav-link:before {
+    
+    background: #2896d3;
+    height: 2px;
+}
+
+nav.bottom-navbar {
+    padding-bottom: 10px;
+}
+
+.form-details {
+    border-radius: 6px 6px 0 0 !important;
+}
+
+.form-tabs ul li button {
+    border-radius: 6px 6px 0 0 !important;
+}
+.tab-content {
+    padding-top: 10px;
+}
+.form-customer .form-group
+{
+    margin-bottom: 4px;
+}
+
+.form-group label {
+    margin-bottom: 0;
+}
+
+p
+{
+    margin: 0;
+}
+
+.form-customer input, .form-customer select, #paymenttable input, #paymenttable textarea, #paymenttable select {
+    padding: 2px 3px;
+    font-size: 12px;
+}
+
+/*New draft btns*/
+.draft-btns {
+    background-color: #2896d3;
+    color: white;
+    border-radius: 6px;
+    width: 120px;
+    padding: 5px 10px;
+    border: 2px solid #2896d3;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.draft-btns:hover {
+    background-color: white;
+    color: #2896d3;
+    border: 2px solid #2896d3;
+    cursor: pointer;
+}
+/*Order btns here styles*/
+.order-btns {
+    background-color: #2896d3;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    border: 2px solid #2896d3;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    width: 90px;
+}
+
+.order-btns:hover {
+    background-color: white;
+    color: #2896d3;
+    border: 2px solid #2896d3;
+    cursor: pointer;
+}
+
+.w-150
+{
+    width: 150px;
+}
+.form-control-panel input, .form-control-panel select
+{
+    padding: 4px 10px;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    font-size: 0.875rem;
+    border-radius: 4px;
+}
+hr:not([size]) {
+    height: 4px !important;
+    color: #2896d3 !important;
+}
+
+hr {
+    opacity: 1 !important;
+}
+/*New css for table print*/
+
+.logoblock-pdf
+{
+    background-color: black;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.bill-block
+{
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.table-bill-block table
+{
+    width: 100%;
+
+}
+
+.table-bill-block table, .table-bill-block table td, .table-bill-block table th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.data
+{
+    width: 40%;
+    margin: 0 0 0 auto;
+}
+
+.data th, .data td, .total-table th, .total-table td, 
+.subtotal-table th, .subtotal-table td, .table-oustanding th, .table-oustanding td
+{
+    border: 1px solid black !important;
+    border-collapse: collapse;
+    width: 100px;
+    padding: 3px;
+}
+
+.total-table
+{
+    width: 100%;
+}
+
+.subtotal-table, .table-oustanding
+{
+    width: 100%;
+}
+
+.footer-p
+{
+    border: 1px solid black !important;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.company-row td
+{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.company-footer td
+{
+    font-size: 18px;
+    font-weight: 700px !important;
+    color: black;
+}
+
+tfoot tr td 
+{
+    border-top: 2px solid black !important;
+}
+
+.border-no tbody td {
+    border: 0 !important;
+}
+
+td input {
+    width: 100%;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+}
+
+td input:focus {
+    border: 1px solid #cacaca;
+}
+
+.table-carrier {
+    text-align: center;
+}
+
+
+.bottom-p {
+    padding: 4px;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width:240px) and (max-width:576px) {
+    .table-block-here {
+        overflow-x: scroll;
+    }
+}
